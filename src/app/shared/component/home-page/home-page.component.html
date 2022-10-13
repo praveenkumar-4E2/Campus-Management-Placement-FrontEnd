@@ -1,0 +1,21 @@
+<p>home-page works!</p>
+<div class="chart">
+    <app-branch-placements>
+    
+    </app-branch-placements>
+
+</div>
+
+<mat-card *ngFor=" let product of department" style="margin-top: 10px;">
+    <mat-card-header>
+        <mat-card-title>{{product.departmentId}}</mat-card-title>
+        <mat-card-subtitle>{{product.departmentName}}</mat-card-subtitle>
+        <mat-card-subtitle *ngFor=" let stu of product.student" style="margin-top: 10px;">
+             name:{{stu.rollNo}}
+
+        </mat-card-subtitle>
+        
+    </mat-card-header>
+
+    
+</mat-card>

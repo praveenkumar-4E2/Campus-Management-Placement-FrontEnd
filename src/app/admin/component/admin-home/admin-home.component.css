@@ -1,0 +1,156 @@
+mat-toolbar {
+
+    background:#0451A1;
+    color:white;
+    height:100px;
+    justify-content:center;
+
+
+}
+
+mat-sidenav {
+    margin: 16px;
+    width: 200px;
+    border-right: none;
+    background: #002b5c;
+    color: white;
+    border-radius: 10px;
+    padding: 16px;
+    text-align: center;
+}
+
+.content {
+    height: calc(100vh - 98px);
+    border-radius: 10px;
+    margin: 16px;
+    margin-left: 32px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2rem;
+    color: lightgray;
+}
+
+mat-sidenav-container {
+    height: calc(100vh - 65px);
+}
+
+.menu-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1rem;
+}
+    mat-icon {
+        margin-right: 8px;
+    }
+
+
+.avatar {
+    margin-top: 16px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    left: 10px;
+}
+
+.name {
+    margin-top: 8px;
+    font-weight: normal;
+}
+
+.designation {
+    margin-top: 2px;
+    font-size: 0.7rem;
+    color: lightgrey;
+}
+
+mat-divider {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.logo{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-img{
+    padding-top :20px;
+    padding-bottom :20px;
+    width: 90px;
+    height: 90px;
+    border-radius:50%;
+}
+
+.title{
+    padding-top:30px;
+    
+    padding-bottom:10px;
+    
+    text-align: center;
+    margin-left:10px;
+    font-family:monospace ,sans-serif;
+}
+
+h1{
+    padding-top: 5px;
+    padding-left: 20px;
+    font-size:3em;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+h2{
+    size: 0.5em;
+    padding-top: 10px;
+    padding-left: 30px;
+    letter-spacing: 3px;
+    font-weight:600;
+    text-decoration-line: underline;
+    text-underline-offset: 5px;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .logo-img{
+        padding-top :20px;
+        padding-bottom :20px;
+        width: 70px;
+        height: 70px;
+        border-radius:50%;
+    }
+    
+    .title{
+        padding-top:10px;
+        
+        padding-bottom:0px;
+        
+        text-align: center;
+        font-family:monospace ,sans-serif;
+    }
+    h1{
+        padding-top: 20px;
+        padding-bottom: 0px;
+        font-size:xx-large;
+        font-weight: 800;
+        letter-spacing:0;
+        padding-left: 0px;
+    }
+    h2{
+        padding-top:0px;
+        font-size:small;
+        font-weight:600;
+        text-decoration-line: underline;
+        text-underline-offset: 3px;
+        letter-spacing: 0px;
+        padding-left: 0px;
+
+        
+    }
+    
+  }
